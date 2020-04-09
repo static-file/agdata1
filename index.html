@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>关于我们</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 Trial Version - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/gh/static-file/agdata1/font-awesome.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/static-file/agdata1/about.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/static-file/agdata1/index.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/static-file/agdata1/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/static-file/agdata1/wb.parallax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/static-file/agdata1/wb.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/static-file/agdata1/jquery-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/static-file/agdata1/wwb15.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_LayoutGrid5').parallax();
+   var TextSliderOpts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward-circular',
+      direction: '',
+      scalemode: 1,
+      pagination: false,
+      pause: null,
+      start: 0
+   };
+   $("#TextSlider").on('activate', function(event, index)
+   {
+      switch(index)
+      {
+         case 0:
+            ShowObjectWithEffect('wb_Name1', 1, 'slideleft', 800, 'easeOutQuad');
+            ShowObjectWithEffect('wb_Name2', 0, 'slideup', 500);
+            ShowObjectWithEffect('wb_Name3', 0, 'slideup', 500);
+            ShowObjectWithEffect('Line1', 1, 'fade', 500);
+            ShowObjectWithEffect('Line2', 0, 'fade', 500);
+            ShowObjectWithEffect('Line3', 0, 'fade', 500);
+            break;
+         case 1:
+            ShowObjectWithEffect('wb_Name1', 0, 'slideup', 500);
+            ShowObjectWithEffect('wb_Name2', 1, 'slideleft', 800, 'easeOutQuad');
+            ShowObjectWithEffect('wb_Name3', 0, 'slideup', 500);
+            ShowObjectWithEffect('Line1', 0, 'fade', 500);
+            ShowObjectWithEffect('Line2', 1, 'fade', 500);
+            ShowObjectWithEffect('Line3', 0, 'fade', 500);
+            break;
+         case 2:
+            ShowObjectWithEffect('wb_Name1', 0, 'slideup', 500);
+            ShowObjectWithEffect('wb_Name2', 0, 'slideup', 500);
+            ShowObjectWithEffect('wb_Name3', 1, 'slideleft', 800, 'easeOutQuad');
+            ShowObjectWithEffect('Line1', 0, 'fade', 500);
+            ShowObjectWithEffect('Line2', 0, 'fade', 500);
+            ShowObjectWithEffect('Line3', 1, 'fade', 500);
+            break;
+      }
+   });
+   $("#TextSlider").carousel(TextSliderOpts);
+});
+</script>
+</head>
+<body>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="https://cdn.jsdelivr.net/gh/static-file/agdata1/images/builtwithwwb15.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250"></a>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5-overlay"></div>
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading5" style="display:inline-block;width:100%;z-index:0;">
+<h1 id="Heading5">农产品市场数据分析系统</h1>
+</div>
+<div id="wb_Heading6" style="display:inline-block;width:100%;z-index:1;">
+<h2 id="Heading6">农业大数据涉及各环节，是跨行业、跨专业、跨业务的数据分析与挖掘，数据可视化。</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading7" style="display:inline-block;width:100%;z-index:2;">
+<h1 id="Heading7">丰富的功能</h1>
+</div>
+<div id="wb_Shape3" style="display:inline-block;width:112px;height:3px;z-index:3;position:relative;">
+<div id="Shape3"></div>
+</div>
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:4;">
+<h2 id="Heading1">我们的新版网站已经上线！</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card7" style="display:flex;width:100%;z-index:5;">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><i class="fa fa-pencil"></i></div>
+      <div id="Card7-card-item1">实时监控</div>
+      <div id="Card7-card-item2">用户可以通过点击“实时监控”导航栏，得到系统提供按照实时爬取的市场总数、品类总数、品种总数、总抓取量、当天抓取量、抓取时间的具体信息，达到实时监控的效果。</div>
+   </div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:6;">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0"><i class="fa fa-comments-o"></i></div>
+      <div id="Card1-card-item1">区域行情</div>
+      <div id="Card1-card-item2">首先在通过导航栏进入区域行情，在下拉多选框中依次选择产品的种类和产品的品种，系统自动展示该品种农产品的全国价格（元/千克）行情，以两种方式展示。</div>
+   </div>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Card2" style="display:flex;width:100%;z-index:7;">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0"><i class="fa fa-search"></i></div>
+      <div id="Card2-card-item1">品种对比</div>
+      <div id="Card2-card-item2">选择省份、批发市场、产品种类名，点击开始查询按钮，系统以曲线或折线图的方式向我们展示同一省份，同一批发市场下同一种类的不同品种的农产品。</div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_Card3" style="display:flex;width:100%;z-index:8;">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0"><i class="fa fa-code"></i></div>
+      <div id="Card3-card-item1">详细查询</div>
+      <div id="Card3-card-item2">客户根据需求输入地区，批发市场，产品种类及品种。系统根据客户需求输出条形图，经纬度以及表格。条形图横轴为一个月的具体日期。</div>
+   </div>
+
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Card4" style="display:flex;width:100%;z-index:9;">
+   <div id="Card4-card-body">
+      <div id="Card4-card-item0"><i class="fa fa-lock"></i></div>
+      <div id="Card4-card-item1">价格走势</div>
+      <div id="Card4-card-item2">用户查询框分“年”、“月”、“产品种类”三类，用户根据需求在对应的框进行选择并点击“开始查询”。 系统根据客户需求输出统计图。</div>
+   </div>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Card5" style="display:flex;width:100%;z-index:10;">
+   <div id="Card5-card-body">
+      <div id="Card5-card-item0"><i class="fa fa-line-chart"></i></div>
+      <div id="Card5-card-item1">价格预测</div>
+      <div id="Card5-card-item2">与实际价格展示在同一张图，利于对比分析。快速实时应对市场变化。系统能够利用大数据准确预测，它能帮助用户第一时间获得突发价格变化。<br></div>
+   </div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_TextSlider" style="position:absolute;left:0px;top:940px;width:970px;height:267px;z-index:25;overflow:hidden;position:relative;">
+<div id="TextSlider" style="position:absolute;">
+<div class="frame">
+<div id="wb_Review1" style="position:absolute;left:133px;top:63px;width:704px;height:37px;z-index:11;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:16px;">&quot;</span><span style="color:#FFFFFF;font-size:16px;">现代化农业也受到大数据时代的影响，信息资源的重要作用日益显现，它使得农业结构在不断转型升级，此类农业数据不断融入到各个行业发展中，所以农业大数据分析也就不断出现与发展。</span></div>
+<hr id="Line1" style="position:absolute;left:407px;top:137px;width:156px;z-index:12;">
+<div id="wb_Name1" style="position:absolute;left:249px;top:160px;width:472px;height:59px;text-align:center;z-index:13;">
+<span style="color:#1BBC9B;font-size:16px;"><strong>徐樑</strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:Arial;font-size:9.3px;"><br></span><span style="color:#FFFFFF;font-family:宋体;font-size:15px;">农产品大数据网负责人</span><span style="color:#FFFFFF;font-family:Arial;font-size:16px;"><br></span></div>
+</div>
+</div>
+</div>
+</body>
+</html>
